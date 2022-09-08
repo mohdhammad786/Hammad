@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'Hammad_Example' do
+  pod 'Hammad', :path => '../'
+
+  target 'Hammad_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
