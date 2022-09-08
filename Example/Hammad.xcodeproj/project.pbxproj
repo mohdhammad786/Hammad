@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		13BB52974113DBF2ABD7404F /* Pods-Hammad_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hammad_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Hammad_Tests/Pods-Hammad_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		167CBFA749AD7DEF0278F338 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5C0AFEF68448322B6A4B769F /* Hammad.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Hammad.podspec; path = ../Hammad.podspec; sourceTree = "<group>"; };
+		167CBFA749AD7DEF0278F338 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5C0AFEF68448322B6A4B769F /* Hammad.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Hammad.podspec; path = ../Hammad.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* Hammad_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hammad_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		9A1A10836807C87E3C65AA51 /* Pods_Hammad_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hammad_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FE619252EF01B2FA96B3D8 /* Pods-Hammad_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hammad_Example.release.xcconfig"; path = "Target Support Files/Pods-Hammad_Example/Pods-Hammad_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C52CBAE1EA547D14CEA92CFA /* Pods-Hammad_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hammad_Example.debug.xcconfig"; path = "Target Support Files/Pods-Hammad_Example/Pods-Hammad_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E38AD91602EC87A596576825 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E38AD91602EC87A596576825 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				13BB52974113DBF2ABD7404F /* Pods-Hammad_Tests.debug.xcconfig */,
 				8E2FC682A3B869D70500E1BF /* Pods-Hammad_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hammad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hammad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

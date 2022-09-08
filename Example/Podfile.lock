@@ -1,0 +1,16 @@
+PODS:
+  - Hammad (0.1.0)
+
+DEPENDENCIES:
+  - Hammad (from `../`)
+
+EXTERNAL SOURCES:
+  Hammad:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Hammad: 169d66c30efe8c143309fff8ff0474be841e09cb
+
+PODFILE CHECKSUM: f46cec53e9073bbc61ce47d11b9dc5a8a963e5e0
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21F11DF352DB4E2444057FD93A022A40 /* Hammad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 055024681B2E5A8B7089797D7AD8BC32 /* Hammad-dummy.m */; };
+		3B53A952093B1036CD7FE7BD46C3D67F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		439C5AC6C1CA4A1300EC51FC87656A90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6708DEDEBBC4AD119B32E9583BD2D118 /* Pods-Hammad_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC92A9602D23BF8C37A3E4C1BA23B843 /* Pods-Hammad_Tests-dummy.m */; };
+		73FB014A88218B38C4C327D88706C878 /* Pods-Hammad_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1469A2BC4B9982F45CD231C72E21219E /* Pods-Hammad_Example-dummy.m */; };
+		80E5DE8B4B0EE9E37480C54050A4FBFF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02147BD1FEFCE811410ADC68FCC649F5 /* ReplaceMe.swift */; };
+		81EC76555A8765106F1D89A844059939 /* Pods-Hammad_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B35D338EEA447AF408C87B37B66A33 /* Pods-Hammad_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93E469E5B340476986FD2EAC43905021 /* Hammad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 399990617DB05121160A19A4133B32B3 /* Hammad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9995DC02DB5CC69A331EC2904A022A34 /* Pods-Hammad_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D8EBDD27A2549BD41DABAFAABAF47 /* Pods-Hammad_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E6DC9770DB00731F2F08CC752763DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B76BE1176008FD7DC74A69E1EC0A4273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13D9C0FD89405DBB80C135B7E97FE55C;
+			remoteInfo = "Pods-Hammad_Example";
+		};
+		E9714887BADBDB22237FDBD4F863F43E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EDA3343406273B39AF888CB278F5DEF;
+			remoteInfo = Hammad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0083F759E2C4163368CC8AA4D4B139A2 /* Hammad.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Hammad.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		02147BD1FEFCE811410ADC68FCC649F5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Hammad/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		0328149A9FA5DF9E0CAFA3DDBBD92D2A /* Hammad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hammad.modulemap; sourceTree = "<group>"; };
+		055024681B2E5A8B7089797D7AD8BC32 /* Hammad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hammad-dummy.m"; sourceTree = "<group>"; };
+		1469A2BC4B9982F45CD231C72E21219E /* Pods-Hammad_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hammad_Example-dummy.m"; sourceTree = "<group>"; };
+		18E7967B09BEBB9E3820980B5FEAEFE6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		283D59EFE9143BA83AA5737074A1D6A0 /* Pods-Hammad_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hammad_Tests-Info.plist"; sourceTree = "<group>"; };
+		399990617DB05121160A19A4133B32B3 /* Hammad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hammad-umbrella.h"; sourceTree = "<group>"; };
+		3E1BFF864CC94B67B71C784F7D99DCE1 /* Pods-Hammad_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hammad_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		438C534376DD8FF420A0AFA73432B055 /* Pods-Hammad_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hammad_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4AD658FCA573FFE5BE3BA363CEAF9F14 /* Pods-Hammad_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hammad_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		70DB641D611E6B165629BB42C2521D76 /* Pods-Hammad_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hammad_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		729BAC3B264F0BC2A45314EB2FB4B971 /* Pods-Hammad_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hammad_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78DEBF848E3B2065C5D94F3779280390 /* Pods-Hammad_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hammad_Example-frameworks.sh"; sourceTree = "<group>"; };
+		87468402C1EBA6BCA6C4C45506B82C1D /* Hammad */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hammad; path = Hammad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		895841D6CAEC9EF419406D6D8B99FC75 /* Hammad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hammad.release.xcconfig; sourceTree = "<group>"; };
+		89B35D338EEA447AF408C87B37B66A33 /* Pods-Hammad_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hammad_Tests-umbrella.h"; sourceTree = "<group>"; };
+		89F3B58BF7FB379467917EDFFA746E1F /* Pods-Hammad_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hammad_Example.modulemap"; sourceTree = "<group>"; };
+		9A650D65D9D16CB5ED110EFEA9954BA6 /* Hammad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hammad.debug.xcconfig; sourceTree = "<group>"; };
+		9BC46D935A1FB45336A0B164493BD384 /* Pods-Hammad_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Hammad_Tests"; path = Pods_Hammad_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A02D8EBDD27A2549BD41DABAFAABAF47 /* Pods-Hammad_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hammad_Example-umbrella.h"; sourceTree = "<group>"; };
+		A4A6FB020E801DDD3DEE8CD60299098C /* Pods-Hammad_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hammad_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A70FC4C8A06F3BD25DBCEBA14D21D111 /* Pods-Hammad_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Hammad_Example"; path = Pods_Hammad_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83CE13FDB61C5B3CE0AA4E16C7C8341 /* Pods-Hammad_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hammad_Tests.modulemap"; sourceTree = "<group>"; };
+		B96EA411E7C97571BBA7B793D8627F0B /* Pods-Hammad_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hammad_Example-Info.plist"; sourceTree = "<group>"; };
+		D8CE8A83708331CE2D1602BA2C2D2258 /* Hammad-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hammad-prefix.pch"; sourceTree = "<group>"; };
+		EC0646F273E0269AF95D42E6CD1093CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EC92A9602D23BF8C37A3E4C1BA23B843 /* Pods-Hammad_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hammad_Tests-dummy.m"; sourceTree = "<group>"; };
+		EE9D936568E54D5959355C6231F1D4E5 /* Hammad-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Hammad-Info.plist"; sourceTree = "<group>"; };
+		F1C24846A58DB72FE9A19E2B19201A02 /* Pods-Hammad_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hammad_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE04A5F76B42B30C3E10BB403CD2C454 /* Pods-Hammad_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hammad_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03DCBEF1CA4FEDFFAC4E1BB548DE98E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B53A952093B1036CD7FE7BD46C3D67F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71398042703BCC04004B228CC45FBFB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439C5AC6C1CA4A1300EC51FC87656A90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BA164DCBCD171CC6F48B98D3A5E7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E6DC9770DB00731F2F08CC752763DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12E2A6D2AC2E2DAE2E16568B64DF71B3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9E5278C3F498CD76F44B4AF91537272 /* Hammad */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1BB912691010A37A4E0584BF8090B575 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0083F759E2C4163368CC8AA4D4B139A2 /* Hammad.podspec */,
+				EC0646F273E0269AF95D42E6CD1093CB /* LICENSE */,
+				18E7967B09BEBB9E3820980B5FEAEFE6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		49567D7F16AF086BA83725FED6E066BB /* Pods-Hammad_Example */ = {
+			isa = PBXGroup;
+			children = (
+				89F3B58BF7FB379467917EDFFA746E1F /* Pods-Hammad_Example.modulemap */,
+				A4A6FB020E801DDD3DEE8CD60299098C /* Pods-Hammad_Example-acknowledgements.markdown */,
+				FE04A5F76B42B30C3E10BB403CD2C454 /* Pods-Hammad_Example-acknowledgements.plist */,
+				1469A2BC4B9982F45CD231C72E21219E /* Pods-Hammad_Example-dummy.m */,
+				78DEBF848E3B2065C5D94F3779280390 /* Pods-Hammad_Example-frameworks.sh */,
+				B96EA411E7C97571BBA7B793D8627F0B /* Pods-Hammad_Example-Info.plist */,
+				A02D8EBDD27A2549BD41DABAFAABAF47 /* Pods-Hammad_Example-umbrella.h */,
+				70DB641D611E6B165629BB42C2521D76 /* Pods-Hammad_Example.debug.xcconfig */,
+				438C534376DD8FF420A0AFA73432B055 /* Pods-Hammad_Example.release.xcconfig */,
+			);
+			name = "Pods-Hammad_Example";
+			path = "Target Support Files/Pods-Hammad_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		832753B5519C2D5F9645F19C61B96DC6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49567D7F16AF086BA83725FED6E066BB /* Pods-Hammad_Example */,
+				AD81C966F022F2F5968611E1856EF0E4 /* Pods-Hammad_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A026702209550D12D8F0CFB4686C6D26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0328149A9FA5DF9E0CAFA3DDBBD92D2A /* Hammad.modulemap */,
+				055024681B2E5A8B7089797D7AD8BC32 /* Hammad-dummy.m */,
+				EE9D936568E54D5959355C6231F1D4E5 /* Hammad-Info.plist */,
+				D8CE8A83708331CE2D1602BA2C2D2258 /* Hammad-prefix.pch */,
+				399990617DB05121160A19A4133B32B3 /* Hammad-umbrella.h */,
+				9A650D65D9D16CB5ED110EFEA9954BA6 /* Hammad.debug.xcconfig */,
+				895841D6CAEC9EF419406D6D8B99FC75 /* Hammad.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Hammad";
+			sourceTree = "<group>";
+		};
+		AA6D49E5F514EAB49E5B1BE60397FB1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87468402C1EBA6BCA6C4C45506B82C1D /* Hammad */,
+				A70FC4C8A06F3BD25DBCEBA14D21D111 /* Pods-Hammad_Example */,
+				9BC46D935A1FB45336A0B164493BD384 /* Pods-Hammad_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD81C966F022F2F5968611E1856EF0E4 /* Pods-Hammad_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A83CE13FDB61C5B3CE0AA4E16C7C8341 /* Pods-Hammad_Tests.modulemap */,
+				3E1BFF864CC94B67B71C784F7D99DCE1 /* Pods-Hammad_Tests-acknowledgements.markdown */,
+				729BAC3B264F0BC2A45314EB2FB4B971 /* Pods-Hammad_Tests-acknowledgements.plist */,
+				EC92A9602D23BF8C37A3E4C1BA23B843 /* Pods-Hammad_Tests-dummy.m */,
+				283D59EFE9143BA83AA5737074A1D6A0 /* Pods-Hammad_Tests-Info.plist */,
+				89B35D338EEA447AF408C87B37B66A33 /* Pods-Hammad_Tests-umbrella.h */,
+				F1C24846A58DB72FE9A19E2B19201A02 /* Pods-Hammad_Tests.debug.xcconfig */,
+				4AD658FCA573FFE5BE3BA363CEAF9F14 /* Pods-Hammad_Tests.release.xcconfig */,
+			);
+			name = "Pods-Hammad_Tests";
+			path = "Target Support Files/Pods-Hammad_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				12E2A6D2AC2E2DAE2E16568B64DF71B3 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AA6D49E5F514EAB49E5B1BE60397FB1D /* Products */,
+				832753B5519C2D5F9645F19C61B96DC6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9E5278C3F498CD76F44B4AF91537272 /* Hammad */ = {
+			isa = PBXGroup;
+			children = (
+				02147BD1FEFCE811410ADC68FCC649F5 /* ReplaceMe.swift */,
+				1BB912691010A37A4E0584BF8090B575 /* Pod */,
+				A026702209550D12D8F0CFB4686C6D26 /* Support Files */,
+			);
+			name = Hammad;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B7F6887A1D2F4C61415131329186158 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E469E5B340476986FD2EAC43905021 /* Hammad-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9114970A6FDDD0AF94250C67FE663C65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9995DC02DB5CC69A331EC2904A022A34 /* Pods-Hammad_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4FDC5A49E9D984F80FC6590F8B400D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EC76555A8765106F1D89A844059939 /* Pods-Hammad_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0EDA3343406273B39AF888CB278F5DEF /* Hammad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCFB65381811C85C6206C48C220697A /* Build configuration list for PBXNativeTarget "Hammad" */;
+			buildPhases = (
+				2B7F6887A1D2F4C61415131329186158 /* Headers */,
+				5470D5D9914295607171AF10DB122DFA /* Sources */,
+				71398042703BCC04004B228CC45FBFB9 /* Frameworks */,
+				1ED551A3E3D1D616A96FA11DC1434872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hammad;
+			productName = Hammad;
+			productReference = 87468402C1EBA6BCA6C4C45506B82C1D /* Hammad */;
+			productType = "com.apple.product-type.framework";
+		};
+		13D9C0FD89405DBB80C135B7E97FE55C /* Pods-Hammad_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEC2FC930A85FD7BC8F86ADE9471585 /* Build configuration list for PBXNativeTarget "Pods-Hammad_Example" */;
+			buildPhases = (
+				9114970A6FDDD0AF94250C67FE663C65 /* Headers */,
+				F22640CB043B885A59A757F3612BB952 /* Sources */,
+				03DCBEF1CA4FEDFFAC4E1BB548DE98E2 /* Frameworks */,
+				D661AE31128F28A1790CB9AFD8CE22EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3397563EB2DB043CBDCE69B5E372598E /* PBXTargetDependency */,
+			);
+			name = "Pods-Hammad_Example";
+			productName = Pods_Hammad_Example;
+			productReference = A70FC4C8A06F3BD25DBCEBA14D21D111 /* Pods-Hammad_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		BBEE1097A424B8BA3E7A2EF49ADC1F0B /* Pods-Hammad_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3681BAA9AACACF465BC06D77145BA5F3 /* Build configuration list for PBXNativeTarget "Pods-Hammad_Tests" */;
+			buildPhases = (
+				DE4FDC5A49E9D984F80FC6590F8B400D /* Headers */,
+				F4BFB88CCA8CF1A385635770F2FBE235 /* Sources */,
+				E6BA164DCBCD171CC6F48B98D3A5E7A0 /* Frameworks */,
+				2E58E1DD80C1F7530555DFB0B61585B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99217652BFC284E8961A521658E70F86 /* PBXTargetDependency */,
+			);
+			name = "Pods-Hammad_Tests";
+			productName = Pods_Hammad_Tests;
+			productReference = 9BC46D935A1FB45336A0B164493BD384 /* Pods-Hammad_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AA6D49E5F514EAB49E5B1BE60397FB1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EDA3343406273B39AF888CB278F5DEF /* Hammad */,
+				13D9C0FD89405DBB80C135B7E97FE55C /* Pods-Hammad_Example */,
+				BBEE1097A424B8BA3E7A2EF49ADC1F0B /* Pods-Hammad_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ED551A3E3D1D616A96FA11DC1434872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E58E1DD80C1F7530555DFB0B61585B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D661AE31128F28A1790CB9AFD8CE22EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5470D5D9914295607171AF10DB122DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F11DF352DB4E2444057FD93A022A40 /* Hammad-dummy.m in Sources */,
+				80E5DE8B4B0EE9E37480C54050A4FBFF /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22640CB043B885A59A757F3612BB952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73FB014A88218B38C4C327D88706C878 /* Pods-Hammad_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BFB88CCA8CF1A385635770F2FBE235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6708DEDEBBC4AD119B32E9583BD2D118 /* Pods-Hammad_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3397563EB2DB043CBDCE69B5E372598E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hammad;
+			target = 0EDA3343406273B39AF888CB278F5DEF /* Hammad */;
+			targetProxy = E9714887BADBDB22237FDBD4F863F43E /* PBXContainerItemProxy */;
+		};
+		99217652BFC284E8961A521658E70F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Hammad_Example";
+			target = 13D9C0FD89405DBB80C135B7E97FE55C /* Pods-Hammad_Example */;
+			targetProxy = B76BE1176008FD7DC74A69E1EC0A4273 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32E8B42BE4F219F387537C1D65026305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A650D65D9D16CB5ED110EFEA9954BA6 /* Hammad.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hammad/Hammad-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hammad/Hammad-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hammad/Hammad.modulemap";
+				PRODUCT_MODULE_NAME = Hammad;
+				PRODUCT_NAME = Hammad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B1C188BE63B9ACD1BE8CF64DCB4C313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895841D6CAEC9EF419406D6D8B99FC75 /* Hammad.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hammad/Hammad-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hammad/Hammad-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hammad/Hammad.modulemap";
+				PRODUCT_MODULE_NAME = Hammad;
+				PRODUCT_NAME = Hammad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C9C14C73C04D3737A4C098652B5C887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438C534376DD8FF420A0AFA73432B055 /* Pods-Hammad_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hammad_Example/Pods-Hammad_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hammad_Example/Pods-Hammad_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CB907B849578DE42759595B5F49C39E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C24846A58DB72FE9A19E2B19201A02 /* Pods-Hammad_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hammad_Tests/Pods-Hammad_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hammad_Tests/Pods-Hammad_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F211EBA868FA215AB6A9C4C26EE89ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD658FCA573FFE5BE3BA363CEAF9F14 /* Pods-Hammad_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hammad_Tests/Pods-Hammad_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hammad_Tests/Pods-Hammad_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF71F7C5D438D90D8AB36982D0102CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70DB641D611E6B165629BB42C2521D76 /* Pods-Hammad_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hammad_Example/Pods-Hammad_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hammad_Example/Pods-Hammad_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3681BAA9AACACF465BC06D77145BA5F3 /* Build configuration list for PBXNativeTarget "Pods-Hammad_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB907B849578DE42759595B5F49C39E6 /* Debug */,
+				F211EBA868FA215AB6A9C4C26EE89ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEC2FC930A85FD7BC8F86ADE9471585 /* Build configuration list for PBXNativeTarget "Pods-Hammad_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF71F7C5D438D90D8AB36982D0102CDA /* Debug */,
+				4C9C14C73C04D3737A4C098652B5C887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCFB65381811C85C6206C48C220697A /* Build configuration list for PBXNativeTarget "Hammad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E8B42BE4F219F387537C1D65026305 /* Debug */,
+				4B1C188BE63B9ACD1BE8CF64DCB4C313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

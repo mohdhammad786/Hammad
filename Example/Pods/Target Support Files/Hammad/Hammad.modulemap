@@ -1,0 +1,6 @@
+framework module Hammad {
+  umbrella header "Hammad-umbrella.h"
+
+  export *
+  module * { export * }
+}
