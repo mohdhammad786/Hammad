@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Hammad'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Hammad.'
+  s.summary          = 'This library deals with the problem of random number generation in swift language '
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,12 +25,12 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mohammad Hammad' => 'mohammad.hammad@bigohtech.com' }
-  s.source           = { :git => 'https://github.com/mohdhammad786/Hammad', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mohdhammad786/Hammad.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Hammad/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
   
   # s.resource_bundles = {
   #   'Hammad' => ['Hammad/Assets/*.png']
