@@ -12,7 +12,7 @@
 		439C5AC6C1CA4A1300EC51FC87656A90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6708DEDEBBC4AD119B32E9583BD2D118 /* Pods-Hammad_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC92A9602D23BF8C37A3E4C1BA23B843 /* Pods-Hammad_Tests-dummy.m */; };
 		73FB014A88218B38C4C327D88706C878 /* Pods-Hammad_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1469A2BC4B9982F45CD231C72E21219E /* Pods-Hammad_Example-dummy.m */; };
-		80E5DE8B4B0EE9E37480C54050A4FBFF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02147BD1FEFCE811410ADC68FCC649F5 /* ReplaceMe.swift */; };
+		80E5DE8B4B0EE9E37480C54050A4FBFF /* HammadPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02147BD1FEFCE811410ADC68FCC649F5 /* HammadPod.swift */; };
 		81EC76555A8765106F1D89A844059939 /* Pods-Hammad_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B35D338EEA447AF408C87B37B66A33 /* Pods-Hammad_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93E469E5B340476986FD2EAC43905021 /* Hammad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 399990617DB05121160A19A4133B32B3 /* Hammad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9995DC02DB5CC69A331EC2904A022A34 /* Pods-Hammad_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D8EBDD27A2549BD41DABAFAABAF47 /* Pods-Hammad_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,12 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0083F759E2C4163368CC8AA4D4B139A2 /* Hammad.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Hammad.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		02147BD1FEFCE811410ADC68FCC649F5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Hammad/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		0083F759E2C4163368CC8AA4D4B139A2 /* Hammad.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Hammad.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		02147BD1FEFCE811410ADC68FCC649F5 /* HammadPod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HammadPod.swift; sourceTree = "<group>"; };
 		0328149A9FA5DF9E0CAFA3DDBBD92D2A /* Hammad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hammad.modulemap; sourceTree = "<group>"; };
 		055024681B2E5A8B7089797D7AD8BC32 /* Hammad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hammad-dummy.m"; sourceTree = "<group>"; };
 		1469A2BC4B9982F45CD231C72E21219E /* Pods-Hammad_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hammad_Example-dummy.m"; sourceTree = "<group>"; };
-		18E7967B09BEBB9E3820980B5FEAEFE6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		18E7967B09BEBB9E3820980B5FEAEFE6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		283D59EFE9143BA83AA5737074A1D6A0 /* Pods-Hammad_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hammad_Tests-Info.plist"; sourceTree = "<group>"; };
 		399990617DB05121160A19A4133B32B3 /* Hammad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hammad-umbrella.h"; sourceTree = "<group>"; };
 		3E1BFF864CC94B67B71C784F7D99DCE1 /* Pods-Hammad_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hammad_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -58,14 +58,14 @@
 		89F3B58BF7FB379467917EDFFA746E1F /* Pods-Hammad_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hammad_Example.modulemap"; sourceTree = "<group>"; };
 		9A650D65D9D16CB5ED110EFEA9954BA6 /* Hammad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hammad.debug.xcconfig; sourceTree = "<group>"; };
 		9BC46D935A1FB45336A0B164493BD384 /* Pods-Hammad_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Hammad_Tests"; path = Pods_Hammad_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A02D8EBDD27A2549BD41DABAFAABAF47 /* Pods-Hammad_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hammad_Example-umbrella.h"; sourceTree = "<group>"; };
 		A4A6FB020E801DDD3DEE8CD60299098C /* Pods-Hammad_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hammad_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A70FC4C8A06F3BD25DBCEBA14D21D111 /* Pods-Hammad_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Hammad_Example"; path = Pods_Hammad_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83CE13FDB61C5B3CE0AA4E16C7C8341 /* Pods-Hammad_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hammad_Tests.modulemap"; sourceTree = "<group>"; };
 		B96EA411E7C97571BBA7B793D8627F0B /* Pods-Hammad_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hammad_Example-Info.plist"; sourceTree = "<group>"; };
 		D8CE8A83708331CE2D1602BA2C2D2258 /* Hammad-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hammad-prefix.pch"; sourceTree = "<group>"; };
-		EC0646F273E0269AF95D42E6CD1093CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EC0646F273E0269AF95D42E6CD1093CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EC92A9602D23BF8C37A3E4C1BA23B843 /* Pods-Hammad_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hammad_Tests-dummy.m"; sourceTree = "<group>"; };
 		EE9D936568E54D5959355C6231F1D4E5 /* Hammad-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Hammad-Info.plist"; sourceTree = "<group>"; };
 		F1C24846A58DB72FE9A19E2B19201A02 /* Pods-Hammad_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hammad_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +116,14 @@
 				18E7967B09BEBB9E3820980B5FEAEFE6 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		3751830D28C9CBB2005B6DD5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				02147BD1FEFCE811410ADC68FCC649F5 /* HammadPod.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		49567D7F16AF086BA83725FED6E066BB /* Pods-Hammad_Example */ = {
@@ -215,7 +223,7 @@
 		F9E5278C3F498CD76F44B4AF91537272 /* Hammad */ = {
 			isa = PBXGroup;
 			children = (
-				02147BD1FEFCE811410ADC68FCC649F5 /* ReplaceMe.swift */,
+				3751830D28C9CBB2005B6DD5 /* Source */,
 				1BB912691010A37A4E0584BF8090B575 /* Pod */,
 				A026702209550D12D8F0CFB4686C6D26 /* Support Files */,
 			);
@@ -368,7 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21F11DF352DB4E2444057FD93A022A40 /* Hammad-dummy.m in Sources */,
-				80E5DE8B4B0EE9E37480C54050A4FBFF /* ReplaceMe.swift in Sources */,
+				80E5DE8B4B0EE9E37480C54050A4FBFF /* HammadPod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,8 +566,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
